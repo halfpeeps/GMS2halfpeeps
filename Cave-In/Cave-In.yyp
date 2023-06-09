@@ -34,6 +34,10 @@
     "IDEVersion": "2023.4.0.84",
   },
   "resources": [
+    {"id":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},},
+    {"id":{"name":"spr_dev_ground","path":"sprites/spr_dev_ground/spr_dev_ground.yy",},},
+    {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},},
+    {"id":{"name":"spr_dev_box","path":"sprites/spr_dev_box/spr_dev_box.yy",},},
     {"id":{"name":"rm_cavin_1","path":"rooms/rm_cavin_1/rm_cavin_1.yy",},},
   ],
   "RoomOrderNodes": [
