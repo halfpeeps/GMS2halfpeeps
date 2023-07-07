@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_box",
+  "name": "obj_box_phys",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -14,7 +14,7 @@
   "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
-  "physicsDensity": 0.5,
+  "physicsDensity": 1000.0,
   "physicsFriction": 0.2,
   "physicsGroup": 1,
   "physicsKinematic": false,
@@ -23,10 +23,15 @@
   "physicsRestitution": 0.1,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":0.0,"y":0.0,},
+    {"x":64.0,"y":0.0,},
+    {"x":64.0,"y":64.0,},
+    {"x":0.0,"y":64.0,},
+  ],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_dev_box",
     "path": "sprites/spr_dev_box/spr_dev_box.yy",
